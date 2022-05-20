@@ -1,0 +1,378 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+ 
+# Built for x86_64-unknown-cygwin
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Fri May 20 16:05:03 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := /cygdrive/d/Projects/go-proj
+# default
+SHELL := /bin/sh
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.1\bin;
+# environment
+ONEDRIVE = C:\Users\Kaiose\OneDrive - LTI
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = /cygdrive/c/Users/Kaiose/AppData/Local/Temp
+# environment
+GAMEFIRST = C:\Program Files (x86)\ASUS\GameFirst\
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-c667c6b1-31d5-473d-8e48-8fd2cb04ae4a-sock
+# environment
+VSCODE_CWD = D:\Projects\go-proj
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# default
+MAKE_HOST := x86_64-unknown-cygwin
+# environment
+PATH = /cygdrive/c/Program Files/Common Files/Oracle/Java/javapath:/cygdrive/c/Program Files/CMake/bin:/cygdrive/c/TDM-GCC-64/bin:/usr/bin:/cygdrive/c/Program Files/Java/jdk-12.0.2/bin:/cygdrive/c/Program Files/Git/bin:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin:/cygdrive/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/libnvvp:/cygdrive/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Windows/System32/OpenSSH:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/c/Program Files/dotnet:/cygdrive/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/cygdrive/c/ProgramData/chocolatey/bin:/cygdrive/c/Program Files/nodejs:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/c/Android:/cygdrive/c/Program Files/Go/bin:/cygdrive/c/Program Files/Amazon/AWSCLIV2:/cygdrive/c/Program Files/Docker/Docker/resources/bin:/cygdrive/c/ProgramData/DockerDesktop/version-bin:/cygdrive/c/Users/Kaiose/AppData/Local/Programs/Python/Python38/Scripts:/cygdrive/c/Users/Kaiose/AppData/Local/Programs/Python/Python38:/cygdrive/c/Users/Kaiose/.cargo/bin:/cygdrive/c/Users/Kaiose/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Program Files/JetBrains/PyCharm Community Edition 2019.3.1/bin:/cygdrive/c/Users/Kaiose/AppData/Local/Programs/Microsoft VS Code/bin:/cygdrive/c/TDM-GCC-64/bin:/cygdrive/c/Users/Kaiose/spicetify-cli:/cygdrive/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/bin:/cygdrive/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/lib:/cygdrive/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/lib/x64:/cygdrive/c/Users/Kaiose/.mujoco/mujoco200/bin:/cygdrive/c/Users/Kaiose/.dotnet/tools:/cygdrive/c/Users/Kaiose/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Users/Kaiose/AppData/Roaming/cabal/bin:/cygdrive/c/tools/ghc-9.0.1/bin:/cygdrive/c/tools/msys64:/cygdrive/c/Program Files/Tesseract-OCR:/cygdrive/c/Users/Kaiose/AppData/Roaming/npm:/cygdrive/c/sqlite:/cygdrive/c/Users/Kaiose/go/bin:/cygdrive/c/Program Files/wkhtmltopdf/bin:/cygdrive/c/pypy3.8
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+LC_ALL = C
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132689908945887280
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\Kaiose
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Users\Kaiose\go
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink guile load
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# automatic
+%F = $(notdir $%)
+# environment
+ANDROID_SDK_HOME = C:\Android
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7856_MAENUBPUOMJYETJS
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = LAPTOP-S0RKEBCA
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Kaiose
+# environment
+PUBLIC = C:\Users\Public
+# environment
+GOMODCACHE = C:\Users\Kaiose\go\pkg\mod
+# environment
+HOME = /home/Kaiose
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Kaiose\AppData\Roaming\Code\CachedData\da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\LAPTOP-S0RKEBCA
+# environment
+ONEDRIVECONSUMER = C:\Users\Kaiose\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = LAPTOP-S0RKEBCA
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+!D: = d:\Projects\go-proj
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\Kaiose\OneDrive - LTI
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\Kaiose\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+ 
+VSCODE_IPC_HOOK = \\.\pipe\551c498368ba4aeb75e917319943c767-1.67.1-main-sock
+# environment
+HOMEPATH = \Users\Kaiose
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+_MSYS2_PREFIX = x86_64
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Kaiose\AppData\Roaming
+# makefile (from 'Makefile', line 2)
+GOTEST = $(GOCMD) test
+# environment
+TEMP = /cygdrive/c/Users/Kaiose/AppData/Local/Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+NVCUDASAMPLES10_1_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'Makefile', line 1)
+GOCMD = go
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9e0a
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 3)
+GORUN = ${GOCMD} run
+# environment
+_MSYS2_BASH = C:\tools\msys64\usr\bin\bash.exe
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+TERM = xterm-256color
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 7856
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-S0RKEBCA
+# variable set hash-table stats:
+# Load=119/1024=12%, Rehash=0, Collisions=18/146=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 3668100462, inode 32369622321726469): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: test
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-20 16:04:02.7464727
+#  File has been updated.
+#  Successfully updated.
+
+start:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 8):
+				${GORUN} server.go
+
+test:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/13=23%
+#  recipe to execute (from 'Makefile', line 10):
+				$(GOTEST) -v ./handlers/*
+
+test-1:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 12):
+				$(GOTEST) -v ./handlers/handlers.go \
+./handlers/handlers_test_helpers.go \
+./handlers/01_get_handler_test.go
+
+test-2:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+				$(GOTEST) -v ./handlers/handlers.go \
+./handlers/handlers_test_helpers.go \
+./handlers/02_post_handler_test.go
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test-3:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 22):
+				$(GOTEST) -v ./handlers/handlers.go \
+./handlers/handlers_test_helpers.go \
+./handlers/03_dispatch_handler_test.go
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/23=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 20 / storage = 147 B / avg = 7 B
+# current buf: size = 8162 B / used = 147 B / count = 20 / avg = 7 B
+
+# strcache performance: lookups = 33 / hit rate = 39%
+# hash-table stats:
+# Load=20/8192=0%, Rehash=0, Collisions=1/33=3%
+# Finished Make data base on Fri May 20 16:05:03 2022
+
+ 
