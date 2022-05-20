@@ -1,6 +1,5 @@
 make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # GNU Make 4.2.1
- 
 # Built for x86_64-unknown-cygwin
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -8,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Fri May 20 16:05:03 2022
+# Make data base, printed on Fri May 20 16:52:49 2022
 
 # Variables
 
@@ -65,7 +64,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-c667c6b1-31d5-473d-8e48-8fd2cb04ae4a-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b88d1882-10e6-4816-a66e-741aaa2cbe9e-sock
 # environment
 VSCODE_CWD = D:\Projects\go-proj
 # environment
@@ -181,7 +180,6 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
- 
 VSCODE_IPC_HOOK = \\.\pipe\551c498368ba4aeb75e917319943c767-1.67.1-main-sock
 # environment
 HOMEPATH = \Users\Kaiose
@@ -217,6 +215,7 @@ MAKEFILES :=
 NVCUDASAMPLES10_1_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1
 # environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
+ 
 # makefile (from 'Makefile', line 1)
 GOCMD = go
 # automatic
@@ -373,6 +372,6 @@ test-3:
 # strcache performance: lookups = 33 / hit rate = 39%
 # hash-table stats:
 # Load=20/8192=0%, Rehash=0, Collisions=1/33=3%
-# Finished Make data base on Fri May 20 16:05:03 2022
+# Finished Make data base on Fri May 20 16:52:49 2022
 
  
