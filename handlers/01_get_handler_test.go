@@ -24,6 +24,7 @@ func TestRootHandlerReturnsNoContentStatus(t *testing.T) {
 	if status := rr.Code; status != http.StatusNoContent {
 		t.Error("Did not return status 204 - No Content")
 	}
+
 }
 
 func TestListWinnersSetsContentType(t *testing.T) {
